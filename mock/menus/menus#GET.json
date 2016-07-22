@@ -1,0 +1,112 @@
+{"data": {
+    "collection": [
+        {
+            "children": [
+                {
+                    "children": [],
+                    "href": "#/list",
+                    "id": "3",
+                    "name": "我的主页",
+                    "parentId": "2",
+                    "permission": "",
+                    "sort": 3
+                },
+                {
+                    "children": [],
+                    "href": "#/visitor-check",
+                    "id": "3e1bc17b-e193-4e29-87b8-8a58ecd5a835",
+                    "name": "用户审核",
+                    "parentId": "2",
+                    "permission": "/visitor:get",
+                    "sort": 3
+                },
+                {
+                    "children": [],
+                    "href": "#/myinfo-resume",
+                    "id": "3e1bc17b-e193-4e29-87b8-8a58ecd5a835",
+                    "name": "个人简历",
+                    "parentId": "2",
+                    "permission": "/visitor:get",
+                    "sort": 3
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "href": "#/myinfo/personal",
+                            "id": "5",
+                            "name": "个人信息修改",
+                            "parentId": "4",
+                            "permission": "/users/current:get",
+                            "sort": 5
+                        },
+                        {
+                            "children": [],
+                            "href": "#/myinfo/password",
+                            "id": "6",
+                            "name": "密码修改",
+                            "parentId": "4",
+                            "permission": "/users:patch",
+                            "sort": 6
+                        }
+                    ],
+                    "href": "",
+                    "id": "4",
+                    "name": "个人信息",
+                    "parentId": "2",
+                    "permission": "",
+                    "sort": 4
+                },
+                {
+                    "children": [],
+                    "href": "#/banner",
+                    "id": "6598dd6d-63fc-4c50-abee-2c535416775e",
+                    "name": "横幅管理",
+                    "parentId": "2",
+                    "permission": "/banners:get",
+                    "sort": 6
+                },
+                {
+                    "children": [],
+                    "href": "#/link",
+                    "id": "6fa25fb8-50ba-46c6-81e0-648c79b7ae9e",
+                    "name": "链接管理",
+                    "parentId": "2",
+                    "permission": "/link:get",
+                    "sort": 4
+                },
+                {
+                    "children": [],
+                    "href": "#/companys",
+                    "id": "92b2c74e-2a8c-4917-ba41-d6bbcd196fae",
+                    "name": "入驻公司",
+                    "parentId": "2",
+                    "permission": "/companys:get",
+                    "sort": 26
+                },
+                {
+                    "children": [],
+                    "href": "#/syslog",
+                    "id": "ccdcb20d-6176-4774-b1dc-aa7aa0327f28",
+                    "name": "日志管理",
+                    "parentId": "2",
+                    "permission": "/syslog:get",
+                    "sort": 8
+                },
+                {
+                    "children": [],
+                    "href": "#/site",
+                    "id": "eec21d47-4fcf-459c-9b69-3bb308d0d7f9",
+                    "name": "站点管理",
+                    "parentId": "2",
+                    "permission": "/site:get",
+                    "sort": 3
+                }
+            ],
+            "id": "2",
+            "name": "我的信息",
+            "parentId": "1",
+            "sort": 2
+        }
+    ]
+}, "silent": false, "successMsg": "", "errors": [], "stat": "OK"}

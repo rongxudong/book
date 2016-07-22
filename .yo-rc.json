@@ -1,0 +1,8 @@
+{
+  "generator-ngstone": {
+    "initBaseServiceAndLayout": true,
+    "unitTest": true,
+    "e2eTest": true,
+    "uiRouter": false
+  }
+}
